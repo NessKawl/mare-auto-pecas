@@ -1,0 +1,75 @@
+Nossa loja Maré Auto Peças está no mercado em Campos de Cunha desde 2016, ao longo desses anos buscamos sempre o melhor atendimento ao cliente, sempre visando o melhor para todos. Além do serviço convencioanl de venda de peças, também trabalhamos com troca e remendo de pneus, trocas de lâmpada, trocas de limpadores de para-brisa.
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e440d4102c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/estilo/style.css">
+    <title>Maré Auto Peças</title>
+</head>
+<body>
+    <header>
+        <h1>Maré Auto Peças</h1>
+    </header>
+    <nav>
+        <i class="fa-solid fa-screwdriver-wrench"></i><a href="#">Serviços</a>
+        <i class="fa-solid fa-phone"></i><a href="#">Contato</a>
+        <i class="fa-solid fa-map-location-dot"></i><a href="#">Localização</a>
+        <!--<i class="fa-solid fa-circle-info"></i><a href="#">Sobre nós</a>-->
+    </nav>
+</html>
+
+/*============ SERVIÇOS ============
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.conteudo {
+    width: 50%;
+    margin: 20px;
+    width: 20%;
+    padding: 8px 30px;
+    text-align: center;
+    line-height: 1.3em;
+    background-color: var(--cor2);
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo:hover {
+    transform: scale(1.1);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+    cursor: default;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 2px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    .conteudo {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .conteudo {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+    .conteudo {
+        width: 30%;
+    }
+}
+*/

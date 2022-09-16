@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #F53A00;
+    --cor2: #0a4bad6b;
+    --cor3: #F06A41;
+    --cor4: #e4582e;
+    --cor5: #BD2C00;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-color: var(--cor2);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor1), var(--cor4), var(--cor3));
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 570px;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+#contato {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.3em;
+}
+
+#contato a:hover {
+    padding: 5px;
+    background-color: #1d55a86b;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#tel-float {
+    font-size: 2.5em;
+    transform: translateY();
+    animation: float 1s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*============ LOCALIZÇÃO ============*/
+
+iframe {
+    margin: 15px auto;
+    height: 72vh;
+    width: 85vw;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+/*============ SERVIÇOS ============*/
+
+#container {
+    margin-top: 50px;
+}
+
+.conteudo {
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 15px;
+    background: var(--cor2);
+    font-size: 0.8em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.conteudo:hover {
+    transform: scale(1.1);
+    cursor: default;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 480px) {
+    .conteudo {
+        width: 50%;
+    }
+    h1 {
+        font-size: 2.3em;
+    }
+    nav {
+        font-size: 1em;
+    }
+}
+
