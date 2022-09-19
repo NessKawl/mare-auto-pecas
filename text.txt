@@ -73,3 +73,15 @@ hr {
     }
 }
 */
+
+/*============ INÍCIO PRODUTOS ============
+
+<div class="product">
+    <div class="img-product">
+        <img src="" >
+    </div>
+    <div class="desc">
+        <label for="#"><strong>Item </strong></label>
+        <label for="#">R$00,00</label>
+    </div>
+</div>
